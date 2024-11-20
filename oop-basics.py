@@ -103,12 +103,6 @@ country.display()
 
 print("-----------------------")
 
-#task 4
 
-class Fraction:
-    def __init__(self, numerator, denominator):
-        # Inicializace čitatele a jmenovatele
-        self.numerator = numerator
-        self.denominator = denominator¨
 
     
