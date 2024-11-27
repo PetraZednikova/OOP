@@ -18,7 +18,7 @@ class Bird(Animal):
         print("pip pip")
 b1 = Bird("Cooco")
 b1.say_hello()
-"""
+
 
 #task 1
 
@@ -69,3 +69,9 @@ print(p1.work())
 print()
 
 print()
+"""
+
+#task 2
+
+class Passport:
+    def __init__(self, name, surname, )
