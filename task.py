@@ -14,3 +14,20 @@
 	    a funkciu ktoru spusta pod volanim metody click. # BONUS
 	•	TextLabel má navyše atribút text (zobrazovaný text).
 	•	Metóda show() vypíše konkrétne informácie o tlačidle alebo textovom štítku."""
+
+
+from abc import ABC, abstractmethod
+
+
+class View(ABC):
+    def __init__(self, name: str, position: tuple):
+        self.name = name
+        self.position = position
+
+    @abstractmethod
+    def move(self, new_position: tuple):
+        pass
+
+class Zobrazitelny(ABC):
+	@abstractmethod
+	def 
