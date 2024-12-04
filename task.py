@@ -28,6 +28,4 @@ class View(ABC):
     def move(self, new_position: tuple):
         pass
 
-class Zobrazitelny(ABC):
-	@abstractmethod
-	def 
+
